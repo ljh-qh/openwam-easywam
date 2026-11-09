@@ -1,0 +1,34 @@
+# data & run artifacts
+data/
+runs/
+logs/
+work/
+images/
+easywam_deps/
+checkpoints/
+*.safetensors
+*.pt
+*.mp4
+*.h5
+*.parquet
+*.npy
+*.lock
+
+# credentials
+.ms_token
+*.token
+
+# python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# archives / bundles
+*.bundle
+repo.tar.gz
+*.tar.gz
+
+# editor / os
+.DS_Store
+.idea/
+.vscode/
